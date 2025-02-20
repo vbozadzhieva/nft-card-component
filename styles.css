@@ -18,6 +18,7 @@
 
 html {
     font: 18px/1.5 'Outfit', sans-serif;
+    font-weight: 300;
     color: var(--white);
 }
 
@@ -49,6 +50,7 @@ body {
 
 h3 {
     margin: 20px 0;
+    font-weight: 500;
 }
 
 .description {
@@ -56,19 +58,28 @@ h3 {
     margin-bottom: 20px;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.price-container,
+.time-left-container {
+    display: flex;
+}
+
 .price {
     color: var(--cyan);
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-left: 7px;
 }
 
 .time-left {
     color: var(--soft-blue);
     font-size: 0.8em;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    margin-left: 7px;
 }
 
 hr {
@@ -101,7 +112,7 @@ footer {
 
 .author {
     font-size: 0.8em;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .author-link {
@@ -111,4 +122,9 @@ footer {
 
 .author-link:hover {
     color: var(--cyan);
+}
+
+.attribution {
+    font-size: 0.8em;
+    margin: 0 auto;
 }
