@@ -9,3 +9,6 @@ This project is a static NFT card component built as part of a Frontend Mentor c
 ## 🛠️ Technologies Used
 - HTML5 – Semantic structure
 - CSS3 – Custom styling with hover effects and responsive design
+
+## 🏆 Challenge from Frontend Mentor
+This project was built following a Frontend Mentor design challenge, helping to practice layout techniques and styling.
